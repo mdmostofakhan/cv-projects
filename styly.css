@@ -10,11 +10,86 @@ body{
     background-color: aqua;
     margin: 0 auto;
     max-width: 1200px;
+    padding: 20px;
+}
+header{
+
+}
+
+.header-design{
+    padding: 20px;
+    float: left;
+    font-family: "Lato", sans-serif;
 }
 
 .profile-img{
+    float: left;
     width: 100px;
     height: 100px;
-    border: 2px solid white;
+    /* border: 3px solid white; */
     border-radius: 50%;
+    padding: 20px;
+}
+
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+
+.header-contact a{
+    font-size: 20px;
+    color: blue;
+    text-decoration: none;
+    font-weight: 20px;
+    font-family: "Lato", sans-serif;
+}
+.header-contact a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color:blue ;
+}
+.clear-both{
+    clear: both;
+    text-decoration: underline;
+}
+
+hr{
+    border: 3px solid red;
+    margin: 20px auto;
+    width: 100%;
+    margin-bottom: none;
+}
+
+.section-contain{
+
+}
+
+.personal-contain{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.div-left{
+    /* float: left; */
+    width: 20%;
+}
+
+.div-right{
+  /* float: left; */
+  width: 60%;
+}
+
+.horizontal{
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.mar-top{
+    margin-bottom: 15px;
 }
